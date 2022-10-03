@@ -26,7 +26,7 @@ function Homepage() {
 
     const handlePageChange = (page) => setCurrentPage(page);
     return (
-        <div>
+        <div >
             <Header currentPage={currentPage} handlePageChange={handlePageChange} />
             {renderPage()}
             <Footer />

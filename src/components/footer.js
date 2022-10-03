@@ -4,11 +4,11 @@ import linked from '../assets/linkedin.png';
 
 function Footer() {
     return (
-        <footer>
+        <footer className='footer'>
             <a href='https://github.com/Sivaparam'>
                 <img src={git} alt='Github'></img>
             </a>
-            <a href='hhtps://www.linkedin.com/in/sivaranjani'>
+            <a href='https://www.linkedin.com/in/sivaranjani-jayaprakash-b077ab76/'>
                 <img src={linked} alt='Linkedin'></img>
             </a>
         </footer>

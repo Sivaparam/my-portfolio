@@ -1,72 +1,55 @@
-/* Body element style */
-body {
-    background-color: #d9dcd6;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-}
 
-/* Header class style */
-.header {
-    background-color: #2a607c;
-    color: #ffffff;
-}
-
-/* Style for h1 element in header class */
-.header h1 {
-    display: inline-block;
-
-}
-
-/* style for nav element in header class */
-.header nav {
-    float: right;
-    font-size: 20px;
-}
-
-/* style for ul element under nav element in header class */
-.header nav ul {
-    list-style-type: none;
-}
-
-/* stle for li element under nav->ul element in header class */
-.header nav ul li {
-    display: inline-block;
-    margin-right: 5px;
-}
-
-/* style for a element in the page */
-a {
-    color: white;
-    text-decoration: none;
-}
-
-/* style for image element under section element */
-section img {
-    width: 90%;
-    height: 300px;
+/* style for image element */
+img {
+    width: 50px;
+    height: 50px;
     margin: 10px 20px 20px 50px;
 }
 
-/* Style - when cursor is hovered over any a/link element */
-a:hover {
-    color: khaki;
-    font-size: 30px;
+.nav .nav-link {
+    color: white;
 }
+.header {
+    background-color: #083ea9;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    color: white;
+  }
 
-/* style for footer class */
-.footer {
-    padding: 5px;
-    text-align: center;
-    font-size: 15px;
-}
+  .footer{
+    display: flex;
+    justify-content: space-evenly;
+   
+  }
 
-.form {
+  .content {
+   
+  padding: 50px;
+
+    background-color: rgb(86, 160, 225)
+  }
+
+  .content img {
+    width: 50%;
+    height: 50%;
+        
+  }
+
+  .project {
+    display: flex-row;
+    padding: 50px;
+  }
+
+  .form {
     margin: 20px;
+    padding: 50px;
   }
   
   .form input {
     display: block;
-    margin-top: 5px;
-    margin-bottom: 5px;
-    width: 100%;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    width: 80%;
   }
-  
+

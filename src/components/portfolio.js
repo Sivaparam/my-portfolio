@@ -41,7 +41,7 @@ const projects = [
 
 function portfolio() {
     return (
-        <div>
+        <div className='project'>
             {projects.map((project) => (
                 <li className='list-group-item' key={project.id}>
                     {project.title}
