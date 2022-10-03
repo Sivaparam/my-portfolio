@@ -3,7 +3,11 @@ import React from 'react';
 
 function Welcome({ currentPage, handlePageChange }) {
   return (
-    <ul className="nav nav-tabs">
+    <div className='navbar navbar-light'>
+    <header >
+      <h2>Sivaranjani Portfolio</h2>
+    </header>
+    <ul className="navbar-nav">
       <li className="nav-item">
         <a
           href="#about"
@@ -46,6 +50,7 @@ function Welcome({ currentPage, handlePageChange }) {
         </a>
       </li>
     </ul>
+    </div>
   );
 }
 

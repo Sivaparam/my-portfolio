@@ -3,8 +3,9 @@ import About from './about';
 import Portfolio from './portfolio';
 import Contact from './contact';
 import Resume from './resume';
-import Welcome from './welcome';
+import Header from './header';
 import '../styles/style.css';
+import Footer from './footer';
 
 function Homepage() {
 
@@ -26,8 +27,9 @@ function Homepage() {
     const handlePageChange = (page) => setCurrentPage(page);
     return (
         <div>
-            <Welcome currentPage={currentPage} handlePageChange={handlePageChange} />
+            <Header currentPage={currentPage} handlePageChange={handlePageChange} />
             {renderPage()}
+            <Footer />
         </div>
     );
 };
