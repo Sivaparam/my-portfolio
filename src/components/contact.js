@@ -37,6 +37,7 @@ function Contact() {
 
   return (
     <div className='content'>
+      <h4>Contact</h4>
       <h4>Hello {userName}</h4>
       <p> Please fill below form to contact me:</p>
       <form className="form">
