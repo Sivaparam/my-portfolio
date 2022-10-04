@@ -45,21 +45,21 @@ npm install bootstrap
 
 ## Mock-up screen
 
-![alt text](./assets/login.png)
+![alt text](./src/assets/about.png)
 
-![alt text](./assets/new_client.png)
+![alt text](./src/assets/contact.png)
 
-![alt text](./assets/manage_client.png)
+![alt text](./src/assets/projects.png)
 
-![alt text](./assets/new_invoice.png)
+![alt text](./src/assets/resume.png)
 
-![alt text](./assets/manage_invoice.png)
+
 
 ### Github URL: 
-https://github.com/jgislaszapata/Invoice-Manager
+https://github.com/Sivaparam/my-portfolio
 
 ### Live URL: 
-https://invoice-manager-pro.herokuapp.com/
+
 
 
 

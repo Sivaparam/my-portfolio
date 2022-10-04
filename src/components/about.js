@@ -1,5 +1,5 @@
 import React from 'react';
-import mern from '../assets/mern_3.png';
+
 import mern1 from '../assets/mern_2.jpeg';
 
 function About() {
