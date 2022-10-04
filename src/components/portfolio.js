@@ -1,5 +1,4 @@
 import React from 'react';
-import invoice from '../assets/invoice.png';
 
 const projects = [
     {
@@ -7,6 +6,7 @@ const projects = [
         title: 'Invoice Manager',
         languages: 'handlebars, css, sequelize, node, express',
         gitURL: 'https://github.com/Sivaparam/invoice_manager',
+        liveURL: 'https://invoice-manager-pro.herokuapp.com/',
         
     },
     {
@@ -14,6 +14,7 @@ const projects = [
         title: 'Receipe Finder',
         languages: 'HTML, CSS, Javascript',
         gitURL: 'https://github.com/Sivaparam/Recipe_finder',
+        liveURL: 'https://sivaparam.github.io/Recipe_finder/',
        
     },
     {
@@ -21,6 +22,7 @@ const projects = [
         title: 'Weather App',
         languages: 'HTML, CSS, Javascript',
         gitURL: 'https://github.com/Sivaparam/weather-app',
+        liveURL: 'https://sivaparam.github.io/weather-app/',
        
     },
     {
@@ -28,6 +30,7 @@ const projects = [
         title: 'Work-day Scheduler',
         languages: 'HTML, CSS, Javascript',
         gitURL: 'https://github.com/Sivaparam/work-day-scheduler',
+        liveURL: 'https://sivaparam.github.io/work-day-scheduler/',
       
     },
     {
@@ -35,6 +38,15 @@ const projects = [
         title: 'Password Generator',
         languages: 'HTML, CSS, Javascript',
         gitURL: 'https://github.com/Sivaparam/password-generator',
+        liveURL: 'https://sivaparam.github.io/password-generator/',
+    
+    },
+    {
+        id: 6,
+        title: 'Text-editor',
+        languages: 'PWA, Javascript',
+        gitURL: 'https://github.com/Sivaparam/text-editor',
+        liveURL: 'https://text-editor-sep21.herokuapp.com/',
     
     },
 
@@ -53,7 +65,7 @@ function portfolio() {
                    <li> <h6>Project Name:   {project.title}</h6> </li>
                    <li>    <h6> Languages Used:</h6>  {project.languages}</li>
                    <li>    <h6> Github: </h6> <a href={project.gitURL}>{project.gitURL}</a></li>
-                   
+                   <li>    <h6> liveURL: </h6> <a href={project.liveURL}>{project.liveURL}</a></li>
 
                     </ul>
                 </div>

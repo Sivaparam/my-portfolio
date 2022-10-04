@@ -65,7 +65,7 @@ img {
     border: solid 1px black;
   
     height:auto;
-    background-color: rgb(86, 145, 233);
+    background-color: rgb(128, 170, 232);
   }
 
   .project li {
@@ -76,4 +76,6 @@ img {
   .portfolio h3 {
     width: 100%;
   }
+
+
 
